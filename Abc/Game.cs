@@ -93,10 +93,7 @@ namespace Abc
             }
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+  
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
@@ -104,5 +101,53 @@ namespace Abc
             Begin_game form2 = new Begin_game();
             form2.Show();
         }
+
+        private bool checkLocationA(Label label)
+        {
+            Point new_point = new Point(label.Location.X, label.Location.Y);
+            if ( 112 < new_point.X  && 470 > new_point.X && 0 < new_point.Y && 340 > new_point.Y)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private bool checkLocationB(Label label)
+        {
+            Point new_point = new Point(label.Location.X, label.Location.Y);
+            if (490 < new_point.X && 862 > new_point.X && 0 < new_point.Y && 340 > new_point.Y)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+
+            bool[] arr =  {checkLocationA(label2),
+                           checkLocationA(label5),
+                           checkLocationA(label6),
+                           checkLocationB(label1),
+                           checkLocationB(label4)};
+
+          foreach(bool b in arr)
+            {
+                if (b.Equals(true))
+                {
+                    i++;
+                }
+            }
+
+            MessageBox.Show(i + "/5!");
+            this.Hide();
+            Begin_game form2 = new Begin_game();
+            form2.Show();
+            
+
+        }
+
+       
     }
 }

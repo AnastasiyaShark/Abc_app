@@ -39,12 +39,8 @@ namespace Abc
             Begin_game form2 = new Begin_game();
             form2.Show();
         }
-        //закрытие программы
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-
-        }
+       
+    
 
         //для передвижения экрана
         Point lastPoint;
@@ -60,6 +56,11 @@ namespace Abc
         private void Welcome_screan_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
+        }
+        //закрытие программы
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

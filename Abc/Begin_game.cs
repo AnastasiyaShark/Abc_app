@@ -54,16 +54,13 @@ namespace Abc
             lastPoint = new Point(e.X, e.Y);
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Welcome_screan form2 = new Welcome_screan();
             form2.Show();
+            
         }
     }
 }

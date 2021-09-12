@@ -67,7 +67,7 @@ namespace Abc
             this.label2.Cursor = System.Windows.Forms.Cursors.SizeAll;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(526, 421);
+            this.label2.Location = new System.Drawing.Point(483, 394);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 37);
             this.label2.TabIndex = 1;
@@ -163,6 +163,7 @@ namespace Abc
             this.button1.TabIndex = 10;
             this.button1.Text = "Узнать результат";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -218,6 +219,7 @@ namespace Abc
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
+            
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Game_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Game_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
