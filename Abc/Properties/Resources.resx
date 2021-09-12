@@ -121,13 +121,16 @@
   <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngtree-cartoon-gift-box-gift-box-illustration-gift-png-image_3891472-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pngtree-cartoon-gift-box-gift-box-illustration-gift-png-image_3891472-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="f2f4d70f779f1dac046497a943dbbfa0.png_wh860-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\f2f4d70f779f1dac046497a943dbbfa0.png_wh860-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="103824775-book-old-vintage-textbook-encyclopedia-dictionary-or-fairy-tale-book-happy-cartoon-design-for-kids-c-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\103824775-book-old-vintage-textbook-encyclopedia-dictionary-or-fairy-tale-book-happy-cartoon-design-for-kids-c-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngtree-cartoon-gift-box-gift-box-illustration-gift-png-image_3891472-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pngtree-cartoon-gift-box-gift-box-illustration-gift-png-image_3891472-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="back-button (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\back-button (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

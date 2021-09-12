@@ -88,9 +88,21 @@ namespace Abc
         {
             if (e.Button == MouseButtons.Left)
             {
-                label.Left += e.X - lastPoint.X;
-               label.Top += e.Y - lastPoint.Y;
+                label.Left += e.X - lastPointWord.X;
+               label.Top += e.Y - lastPointWord.Y;
             }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Begin_game form2 = new Begin_game();
+            form2.Show();
         }
     }
 }

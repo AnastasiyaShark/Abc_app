@@ -101,6 +101,7 @@ namespace Abc
             this.Controls.Add(this.learn_words_button);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Welcome_screan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Welcome_screan_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Welcome_screan_MouseMove);
