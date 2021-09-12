@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.26.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 8.0.26\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB.cs" />
     <Compile Include="Game.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +109,8 @@
   <ItemGroup>
     <Content Include="images\103824775-book-old-vintage-textbook-encyclopedia-dictionary-or-fairy-tale-book-happy-cartoon-design-for-kids-c-removebg-preview.png" />
     <Content Include="images\cancel.png" />
+    <Content Include="images\f2f4d70f779f1dac046497a943dbbfa0.png_wh860-removebg-preview.png" />
+    <Content Include="images\pngtree-cartoon-gift-box-gift-box-illustration-gift-png-image_3891472-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

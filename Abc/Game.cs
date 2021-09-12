@@ -15,6 +15,7 @@ namespace Abc
         public Game()
         {
             InitializeComponent();
+            
         }
         //для передвижения экрана
         Point lastPoint;
@@ -30,6 +31,66 @@ namespace Abc
         private void Game_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
+        }
+        //для передвижения слов
+        Point lastPointWord;
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            checkKoordinate(label1, e);
+        }
+
+        private void label1_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPointWord = new Point(e.X, e.Y);
+        }
+
+        private void label2_MouseMove(object sender, MouseEventArgs e)
+        {
+            checkKoordinate(label2, e);
+        }
+
+        private void label2_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPointWord = new Point(e.X, e.Y);
+        }
+
+        private void label4_MouseMove(object sender, MouseEventArgs e)
+        {
+            checkKoordinate(label4, e);
+        }
+
+        private void label4_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPointWord = new Point(e.X, e.Y);
+        }
+
+        private void label5_MouseMove(object sender, MouseEventArgs e)
+        {
+            checkKoordinate(label5, e);
+        }
+
+        private void label5_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPointWord = new Point(e.X, e.Y);
+        }
+
+        private void label6_MouseMove(object sender, MouseEventArgs e)
+        {
+            checkKoordinate(label6, e);
+        }
+
+        private void label6_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPointWord = new Point(e.X, e.Y);
+        }
+
+        private void checkKoordinate(Label label, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                label.Left += e.X - lastPoint.X;
+               label.Top += e.Y - lastPoint.Y;
+            }
         }
     }
 }

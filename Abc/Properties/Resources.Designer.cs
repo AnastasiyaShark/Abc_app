@@ -80,5 +80,26 @@ namespace Abc.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f2f4d70f779f1dac046497a943dbbfa0_png_wh860_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("f2f4d70f779f1dac046497a943dbbfa0.png_wh860-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_cartoon_gift_box_gift_box_illustration_gift_png_image_3891472_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-cartoon-gift-box-gift-box-illustration-gift-png-image_3891472-removebg-pr" +
+                        "eview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
