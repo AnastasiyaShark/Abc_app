@@ -43,7 +43,7 @@ namespace Abc
             this.learn_words_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.learn_words_button.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.learn_words_button.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.learn_words_button.Location = new System.Drawing.Point(204, 381);
+            this.learn_words_button.Location = new System.Drawing.Point(231, 405);
             this.learn_words_button.Name = "learn_words_button";
             this.learn_words_button.Size = new System.Drawing.Size(209, 92);
             this.learn_words_button.TabIndex = 0;
@@ -60,7 +60,7 @@ namespace Abc
             this.check_botton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow;
             this.check_botton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.check_botton.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_botton.Location = new System.Drawing.Point(481, 381);
+            this.check_botton.Location = new System.Drawing.Point(496, 405);
             this.check_botton.Name = "check_botton";
             this.check_botton.Size = new System.Drawing.Size(209, 93);
             this.check_botton.TabIndex = 1;
@@ -72,7 +72,7 @@ namespace Abc
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Abc.Properties.Resources.cancel;
-            this.pictureBox2.Location = new System.Drawing.Point(849, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(833, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(55, 53);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -83,7 +83,7 @@ namespace Abc
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Abc.Properties.Resources._103824775_book_old_vintage_textbook_encyclopedia_dictionary_or_fairy_tale_book_happy_cartoon_design_for_kids_c_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(268, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(278, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(370, 334);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -94,7 +94,7 @@ namespace Abc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(916, 565);
+            this.ClientSize = new System.Drawing.Size(900, 600);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.check_botton);
@@ -102,6 +102,8 @@ namespace Abc
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Welcome_screan";
             this.Text = "Form1";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Welcome_screan_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Welcome_screan_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

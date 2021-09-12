@@ -16,5 +16,20 @@ namespace Abc
         {
             InitializeComponent();
         }
+        //для передвижения экрана
+        Point lastPoint;
+        private void Game_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+        //для передвижения экрана
+        private void Game_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
+        }
     }
 }

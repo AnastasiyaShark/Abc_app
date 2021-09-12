@@ -45,5 +45,21 @@ namespace Abc
             this.Close();
 
         }
+
+        //для передвижения экрана
+        Point lastPoint;
+        private void Welcome_screan_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+        //для передвижения экрана
+        private void Welcome_screan_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
+        }
     }
 }

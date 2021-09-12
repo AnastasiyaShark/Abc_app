@@ -36,10 +36,12 @@ namespace Abc
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 600);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Game";
             this.Text = "Game";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Game_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Game_MouseMove);
             this.ResumeLayout(false);
 
         }
